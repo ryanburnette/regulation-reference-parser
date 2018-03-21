@@ -1,0 +1,22 @@
+{
+  "name": "regulation-reference-parser",
+  "version": "1.0.0",
+  "description": "Parse references to CFR regulations into an object.",
+  "main": "lib/regulation-reference-parser.js",
+  "scripts": {
+    "test": "node_modules/.bin/mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cfi-notebook/regulation-reference-parser.git"
+  },
+  "contributors": [
+    "Ryan Burnette",
+    "Michael McCracken"
+  ],
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cfi-notebook/regulation-reference-parser/issues"
+  },
+  "homepage": "https://github.com/cfi-notebook/regulation-reference-parser"
+}
