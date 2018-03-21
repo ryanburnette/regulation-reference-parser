@@ -18,5 +18,10 @@
   "bugs": {
     "url": "https://github.com/cfi-notebook/regulation-reference-parser/issues"
   },
-  "homepage": "https://github.com/cfi-notebook/regulation-reference-parser"
+  "homepage": "https://github.com/cfi-notebook/regulation-reference-parser",
+  "dependencies": {},
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.0.4"
+  }
 }
