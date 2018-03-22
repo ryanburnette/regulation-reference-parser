@@ -4,8 +4,8 @@
   "description": "Parse references to CFR regulations into an object.",
   "main": "lib/regulation-reference-parser.js",
   "scripts": {
-    "test": "node_modules/.bin/mocha",
-    "test:watch": "nodemon --watch index.js --watch tests/index.js --exec 'npm run test || true'"
+    "test": "node_modules/.bin/mocha test/*.js",
+    "test:watch": "nodemon --watch lib/*.js --watch test/*.js --exec 'npm run test || true'"
   },
   "repository": {
     "type": "git",
