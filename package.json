@@ -1,6 +1,6 @@
 {
   "name": "regulation-reference-parser",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Parse references to CFR regulations into an object.",
   "main": "lib/regulation-reference-parser.js",
   "scripts": {
