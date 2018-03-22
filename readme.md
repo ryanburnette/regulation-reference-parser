@@ -11,15 +11,24 @@ npm install regulation-reference-parser
 ```javascript
 const parse = require('regulation-reference-parser')
 
-parse('14 CFR 91.213(b)(c)')
-=> { title:        14,
-     part:         91,
-     section:      213
-     paragraphs:   [
-                     'b',
-                     'c'
-                   ],
-     subparagraph: []
+parse('14 CFR § 91.213(b)(2) and (c)(3)')
+=> { 
+     title: '14',
+     part: '91',
+     section: '213',
+		 /* not supported yet
+     paragraphs: [
+       'b',
+       'c'
+     ],
+     subparagraphs: [
+       b: [
+         '2'
+       ],
+       c: [
+         '3'
+       ]
+     ] */
    }
 ```
 
