@@ -12,8 +12,7 @@
     "url": "git+https://github.com/cfi-notebook/regulation-reference-parser.git"
   },
   "contributors": [
-    "Ryan Burnette",
-    "Michael McCracken"
+    "Ryan Burnette <ryan.burnette@gmail.com>"
   ],
   "license": "ISC",
   "bugs": {
