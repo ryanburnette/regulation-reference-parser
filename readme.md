@@ -16,7 +16,7 @@ parse('14 CFR § 91.213(b)(2) and (c)(3)')
      title: '14',
      part: '91',
      section: '213',
-		 /* not supported yet
+     /* not supported yet
      paragraphs: [
        'b',
        'c'
@@ -28,7 +28,8 @@ parse('14 CFR § 91.213(b)(2) and (c)(3)')
        c: [
          '3'
        ]
-     ] */
+     ]
+     */
    }
 ```
 
